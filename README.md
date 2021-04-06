@@ -1,10 +1,8 @@
 # 🌿 Counting Unique Character 🌿
 
-I will write the Algorithm to understand
-the program.
-
-You will struggle hard for it if you first
-time doing it.
+> I will write the Algorithm to understand
+the program. I'm pretty sure that you will
+struggle for the first time if you never code this before.
 
 Made with <3 by Gunawan Cipta.
 
