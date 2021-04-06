@@ -8,4 +8,4 @@ time doing it.
 
 Made with <3 by Gunawan Cipta.
 
-Don't forget follow my instagram @coocaainne
+Don't forget follow my Instagram [@coocaainne](https://www.instagram.com/coocaainne)
