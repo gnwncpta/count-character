@@ -2,7 +2,7 @@
 
 > I will write the Algorithm to understand
 the program. I'm pretty sure that you will
-struggle for the first time if you never make this program before.
+struggle for the first time if you never make program like this before.
 
 Follow Instagram [@coocaainne](https://www.instagram.com/coocaainne)
 
