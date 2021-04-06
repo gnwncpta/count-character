@@ -1,4 +1,4 @@
-# ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") 🌿 Counting Unique Character 🌿
+# ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") Counting Unique Character 🌿
 
 > I will write the Algorithm to understand
 the program. I'm pretty sure that you will
