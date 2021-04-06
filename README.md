@@ -1,2 +1,3 @@
-# total-words
-Total Words Checker
+# Count Unique Character 🌿
+
+Made by Gunawan Cipta
