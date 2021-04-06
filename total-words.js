@@ -4,11 +4,11 @@ const prompt = require('prompt');
 const log = console.log;
 prompt.start();
 
-log(chalk.bgGreen.white.bold(" Masukkan Huruf! "))
+log(chalk.bgGreen.white.bold("[@] MASUKKAN HURUF! "))
 prompt.get(['letters'], (err, result) => {
     if(err) {return onErr(err)};
     inputInfo(result.letters, totalWords);
-})  
+});
 
 const inputInfo = (letters, totalWords) => {
     head = `
@@ -22,16 +22,23 @@ const inputInfo = (letters, totalWords) => {
 
 const totalWords = (letters) => {
     arrLetters = letters.split('');
-    bigLetters = arrLetters.filter(letter => letter == letter.toUpperCase());
-    smallLetters = arrLetters.filter(letter => letter == letter.toLowerCase());
+    // bigLetters = arrLetters.filter(letter => letter == letter.toUpperCase());
+    // smallLetters = arrLetters.filter(letter => letter == letter.toLowerCase());
 
-    let alreadySeen = [];
+    const number = {};
 
-    bigLetters.forEach( (letter, index) => {
-        let value = letter;
-        if(alreadySeen.indexOf(value) !== -1){
-            return true;
-        }
-        alreadySeen.push(value)
+    arrLetters.forEach( letter => {
+        number[letter] = (number[letter]) ? number[letter] + 1 : 1;
+    });
+
+    const letter = {};
+
+    arrLetters.forEach( isi => {
+        letter[isi] = (letter[isi]) ? letter[isi] = isi : isi;
     })
+
+    for(let keyletter in letter){
+        console.log(chalk.green(`Huruf ${keyletter} ada ${number[keyletter]} karakter.`));
+    }
 }
+
