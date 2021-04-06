@@ -6,5 +6,6 @@ the program.
 You will struggle hard for it if you first
 time doing it.
 
-Made with <3 by Gunawan Cipta
+Made with <3 by Gunawan Cipta.
+
 Don't forget follow my instagram @coocaainne
