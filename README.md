@@ -1,3 +1,3 @@
-# Count Unique Character 🌿
+# Counting Unique Character 🌿
 
-Made by Gunawan Cipta
+Made with <3 by Gunawan Cipta
