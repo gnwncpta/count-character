@@ -5,7 +5,7 @@
   "main": "readline.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node total-words.js",
+    "start": "node main.js",
     "install": "npm install chalk@^4.1.0 --save && npm install prompt@^1.1.0"
   },
   "keywords": [],

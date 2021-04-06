@@ -22,8 +22,6 @@ const inputInfo = (letters, totalWords) => {
 
 const totalWords = (letters) => {
     arrLetters = letters.split('');
-    // bigLetters = arrLetters.filter(letter => letter == letter.toUpperCase());
-    // smallLetters = arrLetters.filter(letter => letter == letter.toLowerCase());
 
     const number = {};
 
