@@ -36,7 +36,7 @@ const totalWords = (letters) => {
     })
 
     for(let keyletter in letter){
-        console.log(chalk.green(`Huruf ${keyletter} ada ${number[keyletter]} karakter.`));
+        log(chalk.green(`Huruf ${keyletter} ada ${number[keyletter]} karakter.`));
     }
 }
 
