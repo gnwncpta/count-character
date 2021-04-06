@@ -1,0 +1,18 @@
+{
+  "name": "total-words",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node total-words.js",
+    "install": "npm install chalk@^4.1.0 --save && npm install prompt@^1.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "prompt": "^1.1.0"
+  }
+}
